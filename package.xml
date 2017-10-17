@@ -10,7 +10,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-06-20</date>
+ <date>2017-10-17</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0alpha1</api>
@@ -33,7 +33,9 @@
       <file name="Exception.php" role="php" />
       <file name="Null.php" role="php" />
       <file name="Program.php" role="php" />
-      <file name="Translation.php" role="php" />
+      <file name="Translation.php" role="php">
+       <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
+      </file>
      </dir> <!-- /lib/Horde/Spam -->
      <file name="Spam.php" role="php" />
     </dir> <!-- /lib/Horde -->
@@ -129,18 +131,18 @@
    <install as="Horde/Spam/Null.php" name="lib/Horde/Spam/Null.php" />
    <install as="Horde/Spam/Program.php" name="lib/Horde/Spam/Program.php" />
    <install as="Horde/Spam/Translation.php" name="lib/Horde/Spam/Translation.php" />
-   <install as="locale/Horde_Spam.pot" name="locale/Horde_Spam.pot" />
    <install as="locale/de/LC_MESSAGES/Horde_Spam.mo" name="locale/de/LC_MESSAGES/Horde_Spam.mo" />
    <install as="locale/de/LC_MESSAGES/Horde_Spam.po" name="locale/de/LC_MESSAGES/Horde_Spam.po" />
+   <install as="locale/Horde_Spam.pot" name="locale/Horde_Spam.pot" />
    <install as="Horde/Spam/AllTests.php" name="test/Horde/Spam/AllTests.php" />
    <install as="Horde/Spam/bootstrap.php" name="test/Horde/Spam/bootstrap.php" />
    <install as="Horde/Spam/EmailTest.php" name="test/Horde/Spam/EmailTest.php" />
+   <install as="Horde/Spam/fixtures/sample-nonspam.txt" name="test/Horde/Spam/fixtures/sample-nonspam.txt" />
+   <install as="Horde/Spam/fixtures/sample-spam.txt" name="test/Horde/Spam/fixtures/sample-spam.txt" />
    <install as="Horde/Spam/NullTest.php" name="test/Horde/Spam/NullTest.php" />
    <install as="Horde/Spam/phpunit.xml" name="test/Horde/Spam/phpunit.xml" />
    <install as="Horde/Spam/ProgramTest.php" name="test/Horde/Spam/ProgramTest.php" />
    <install as="Horde/Spam/TestBase.php" name="test/Horde/Spam/TestBase.php" />
-   <install as="Horde/Spam/fixtures/sample-nonspam.txt" name="test/Horde/Spam/fixtures/sample-nonspam.txt" />
-   <install as="Horde/Spam/fixtures/sample-spam.txt" name="test/Horde/Spam/fixtures/sample-spam.txt" />
   </filelist>
  </phprelease>
  <changelog>
@@ -153,7 +155,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2016-06-20</date>
+   <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/lgpl">LGPL</license>
    <notes>
 * Initial release.
