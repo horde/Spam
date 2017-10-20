@@ -10,7 +10,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-17</date>
+ <date>2017-10-20</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0alpha1</api>
@@ -60,7 +60,6 @@
       <file name="bootstrap.php" role="test" />
       <file name="EmailTest.php" role="test" />
       <file name="NullTest.php" role="test" />
-      <file name="phpunit.xml" role="test" />
       <file name="ProgramTest.php" role="test" />
       <file name="TestBase.php" role="test" />
      </dir> <!-- /test/Horde/Spam -->
@@ -140,7 +139,6 @@
    <install as="Horde/Spam/fixtures/sample-nonspam.txt" name="test/Horde/Spam/fixtures/sample-nonspam.txt" />
    <install as="Horde/Spam/fixtures/sample-spam.txt" name="test/Horde/Spam/fixtures/sample-spam.txt" />
    <install as="Horde/Spam/NullTest.php" name="test/Horde/Spam/NullTest.php" />
-   <install as="Horde/Spam/phpunit.xml" name="test/Horde/Spam/phpunit.xml" />
    <install as="Horde/Spam/ProgramTest.php" name="test/Horde/Spam/ProgramTest.php" />
    <install as="Horde/Spam/TestBase.php" name="test/Horde/Spam/TestBase.php" />
   </filelist>
@@ -155,7 +153,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-10-17</date>
+   <date>2017-10-20</date>
    <license uri="http://www.horde.org/licenses/lgpl">LGPL</license>
    <notes>
 * Initial release.
