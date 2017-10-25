@@ -8,3 +8,31 @@ description: >
   redirection and digest reports, and through an executable.
 list: dev
 type: library
+authors:
+  -
+    name: Jan Schneider
+    user: jan
+    email: jan@horde.org
+    active: true
+    role: lead
+version:
+  release: 1.0.0alpha1
+  api: 1.0.0alpha1
+state:
+  release: alpha
+  api: alpha
+license:
+  identifier: LGPL
+  uri: http://www.horde.org/licenses/lgpl
+dependencies:
+  required:
+    php: ^5.3
+    pear:
+      pear.horde.org/Horde_Exception: ^2
+      pear.horde.org/Horde_Support: ^2
+  optional:
+    pear:
+      pear.horde.org/Horde_Log: ^2
+      pear.horde.org/Horde_Mail: ^2
+      pear.horde.org/Horde_Mime: ^2
+      pear.horde.org/Horde_Translation: ^2
