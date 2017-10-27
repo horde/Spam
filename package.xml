@@ -10,7 +10,7 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-20</date>
+ <date>2017-10-27</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0alpha1</api>
@@ -25,6 +25,13 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
+   <dir name="doc">
+    <dir name="Horde">
+     <dir name="Spam">
+      <file name="CHANGES" role="doc" />
+     </dir> <!-- /doc/Horde/Spam -->
+    </dir> <!-- /doc/Horde -->
+   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <dir name="Spam">
@@ -123,6 +130,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/Spam/CHANGES" />
    <install as="Horde/Spam.php" name="lib/Horde/Spam.php" />
    <install as="Horde/Spam/Base.php" name="lib/Horde/Spam/Base.php" />
    <install as="Horde/Spam/Email.php" name="lib/Horde/Spam/Email.php" />
@@ -153,7 +161,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-10-20</date>
+   <date>2017-10-27</date>
    <license uri="http://www.horde.org/licenses/lgpl">LGPL</license>
    <notes>
 * Initial release.
