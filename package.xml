@@ -65,7 +65,6 @@
       <file name="bootstrap.php" role="test" />
       <file name="EmailTest.php" role="test" />
       <file name="NullTest.php" role="test" />
-      <file name="phpunit.xml" role="test" />
       <file name="ProgramTest.php" role="test" />
       <file name="TestBase.php" role="test" />
      </dir> <!-- /test/Horde/Spam -->
@@ -144,7 +143,6 @@
    <install as="Horde/Spam/bootstrap.php" name="test/Horde/Spam/bootstrap.php" />
    <install as="Horde/Spam/EmailTest.php" name="test/Horde/Spam/EmailTest.php" />
    <install as="Horde/Spam/NullTest.php" name="test/Horde/Spam/NullTest.php" />
-   <install as="Horde/Spam/phpunit.xml" name="test/Horde/Spam/phpunit.xml" />
    <install as="Horde/Spam/ProgramTest.php" name="test/Horde/Spam/ProgramTest.php" />
    <install as="Horde/Spam/TestBase.php" name="test/Horde/Spam/TestBase.php" />
    <install as="Horde/Spam/fixtures/sample-nonspam.txt" name="test/Horde/Spam/fixtures/sample-nonspam.txt" />
