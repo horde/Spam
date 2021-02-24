@@ -3,14 +3,14 @@
  <name>Horde_Spam</name>
  <channel>pear.horde.org</channel>
  <summary>Spam reporting library</summary>
- <description>Horde_Spam is an abstraction library for systems that allow the reporting of spam or innocent email messages. Supported systems include reporting via email redirection and digest reports, and through an executable.</description>
+ <description>An abstraction library for systems that allow the reporting of spam or innocent email messages. Supported systems include reporting via email redirection and digest reports, and through an executable.</description>
  <lead>
   <name>Jan Schneider</name>
   <user>jan</user>
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-11-11</date>
+ <date>2021-02-24</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0alpha1</api>
@@ -161,7 +161,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-11-11</date>
+   <date>2021-02-24</date>
    <license uri="http://www.horde.org/licenses/lgpl">LGPL</license>
    <notes>
 * Initial release.

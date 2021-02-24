@@ -3,8 +3,8 @@ id: Spam
 name: Spam
 full: Spam reporting library
 description: >-
-  An abstraction library for systems that allow the reporting of
-  spam or innocent email messages. Supported systems include reporting via email
+  An abstraction library for systems that allow the reporting of spam or
+  innocent email messages. Supported systems include reporting via email
   redirection and digest reports, and through an executable.
 list: dev
 type: library
