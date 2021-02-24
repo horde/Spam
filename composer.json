@@ -34,9 +34,6 @@
     "autoload": {
         "psr-0": {
             "Horde_Spam": "lib/"
-        },
-        "psr-4": {
-            "Horde\\Spam\\": "src/"
         }
     }
 }
