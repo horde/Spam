@@ -6,9 +6,17 @@
  * @package    Spam
  * @subpackage UnitTests
  */
-class Horde_Spam_EmailTest extends Horde_Spam_TestBase
+namespace Horde\Spam;
+use Horde_Spam_TestBase as TestBase;
+use \Horde_Mail_Transport_Mock;
+use \Horde_Spam_Email;
+use \Horde_Log_Logger;
+use \Horde_Log_Handler_Cli;
+use \Horde_Spam_Program;
+
+class EmailTest extends TestBase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         setlocale(LC_ALL, 'C');
@@ -21,7 +29,7 @@ class Horde_Spam_EmailTest extends Horde_Spam_TestBase
         );
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         setlocale(LC_ALL, '');
     }

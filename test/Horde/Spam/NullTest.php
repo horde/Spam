@@ -6,7 +6,12 @@
  * @package    Spam
  * @subpackage UnitTests
  */
-class Horde_Spam_NullTest extends Horde_Spam_TestBase
+namespace Horde\Spam;
+use Horde_Spam_TestBase as TestBase;
+use \Horde_Spam_Null;
+use \Horde_Spam;
+
+class NullTest extends TestBase
 {
     public function testReportSpamSuccess()
     {

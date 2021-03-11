@@ -6,9 +6,15 @@
  * @package    Spam
  * @subpackage UnitTests
  */
-class Horde_Spam_ProgramTest extends Horde_Spam_TestBase
+namespace Horde\Spam;
+use Horde_Spam_TestBase as TestBase;
+use \Horde_Spam_Program;
+use \Horde_Log_Logger;
+use \Horde_Log_Handler_Cli;
+
+class ProgramTest extends TestBase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->out_template = sys_get_temp_dir() . '/horde_spam.*.out';
@@ -18,7 +24,7 @@ class Horde_Spam_ProgramTest extends Horde_Spam_TestBase
             . $this->out_template . '"), stream_get_contents(STDIN));\'';
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         foreach (glob($this->out_template) as $out_file) {
             unlink($out_file);
