@@ -7,7 +7,6 @@
  * @subpackage UnitTests
  */
 namespace Horde\Spam;
-use Horde_Spam_TestBase as TestBase;
 use \Horde_Spam_Null;
 use \Horde_Spam;
 

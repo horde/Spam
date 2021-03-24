@@ -7,7 +7,6 @@
  * @subpackage UnitTests
  */
 namespace Horde\Spam;
-use Horde_Spam_TestBase as TestBase;
 use \Horde_Mail_Transport_Mock;
 use \Horde_Spam_Email;
 use \Horde_Log_Logger;

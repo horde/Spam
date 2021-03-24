@@ -6,8 +6,10 @@
  * @package    Spam
  * @subpackage UnitTests
  */
+namespace Horde\Spam;
+use Horde_Test_Case as TestCase;
 
-class Horde_Spam_TestBase extends Horde_Test_Case
+class TestBase extends TestCase
 {
     public function setUp(): void
     {

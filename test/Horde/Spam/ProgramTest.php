@@ -7,7 +7,6 @@
  * @subpackage UnitTests
  */
 namespace Horde\Spam;
-use Horde_Spam_TestBase as TestBase;
 use \Horde_Spam_Program;
 use \Horde_Log_Logger;
 use \Horde_Log_Handler_Cli;
