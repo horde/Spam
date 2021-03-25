@@ -8,6 +8,8 @@
  */
 namespace Horde\Spam;
 use Horde_Test_Case as TestCase;
+use \Horde_Spam_Base;
+use \Horde_Spam;
 
 class TestBase extends TestCase
 {
